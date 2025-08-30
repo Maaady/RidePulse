@@ -73,26 +73,6 @@ npm run preview
 
 ---
 
-## 🚀 Deployment (Netlify)
-
-**Option 1 – Drag & Drop**
-```bash
-npm run build
-```
-Upload `dist/` to [Netlify Drop](https://app.netlify.com/drop).
-
-**Option 2 – GitHub Integration**
-- Push to GitHub → Connect in Netlify → Auto-builds.
-
-**Option 3 – CLI**
-```bash
-npm install -g netlify-cli
-netlify login
-netlify deploy --prod --dir=dist
-```
-
----
-
 ## 🎯 Key Highlights
 - Scalable to **10k+ WebSocket clients**
 - Production-grade error handling & fallbacks
